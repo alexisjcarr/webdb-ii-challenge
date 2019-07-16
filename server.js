@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 
-// const db = require("./data/dbConfig");
+const db = require("./data/dbConfig");
 
 const server = express();
 
