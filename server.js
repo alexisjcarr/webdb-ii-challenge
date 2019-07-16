@@ -1,12 +1,13 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 
-const db = require("./data/dbConfig");
+const carsRouter = require("./routers/carsRouter");
 
 const server = express();
 
 server.use(bodyParser.json());
 
 // routers
+server.use("/api/cars", carsRouter);
 
 module.exports = server;
