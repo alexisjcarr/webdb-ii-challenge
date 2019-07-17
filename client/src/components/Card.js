@@ -9,7 +9,7 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles({
   card: {
     width: 400,
-    margin: 100
+    margin: 50
   },
   bullet: {
     display: "inline-block",
@@ -27,7 +27,7 @@ const useStyles = makeStyles({
 export default function SimpleCard(props) {
   const { car } = props;
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
+  // const bull = <span className={classes.bullet}>•</span>;
 
   return (
     <Card className={classes.card}>
@@ -43,7 +43,7 @@ export default function SimpleCard(props) {
         <Typography color="textSecondary">{car.title_status}</Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <Button size="small">B U Y</Button>
       </CardActions>
     </Card>
   );
