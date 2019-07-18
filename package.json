@@ -1,13 +1,30 @@
 {
   "name": "webdb-ii-challenge",
   "version": "1.0.0",
-  "description": "Web DB II Module Challenge",
+  "description": "In this challenge, you will write an API that can be used to manage _Cars_ stored in a Relational Database.",
   "main": "index.js",
-  "scripts": {
-    "server": "nodemon index.js"
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.19.0",
+    "nodemon": "^1.19.1",
+    "sqlite3": "^4.0.9"
   },
-  "author": "Lambda School",
-  "devDependencies": {
-    "nodemon": "^1.19.1"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexisjcarr/webdb-ii-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexisjcarr/webdb-ii-challenge/issues"
+  },
+  "homepage": "https://github.com/alexisjcarr/webdb-ii-challenge#readme"
 }
